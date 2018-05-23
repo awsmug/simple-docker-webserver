@@ -6,7 +6,7 @@ This webserver contains a basic configuration with
 * php (7-fpm) - configured with xdebug
 * mariadb (latest)
 
-## Configurate your environment
+## Configure your environment
 
 ### PHP Settings
 
