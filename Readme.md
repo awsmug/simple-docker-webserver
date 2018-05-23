@@ -24,8 +24,10 @@ the field `XDebug > Debug Port` to the port you have entered at your php.ini.
 
 ### Webserver settings
 
-The nginx host by default is `localhost`. You can change the host it in the  `conf/nginx/nginx.conf`. But please 
-keep in mind to add the host entry to your local `/etc/hosts` file.
+The nginx host by default is `test.web`. You can change the host it in the  `conf/nginx/nginx.conf`. But please 
+keep in mind to add the host entry to your local `/etc/hosts` file with en entry like this:
+
+`127.0.0.1 test.web`
 
 ## Launching Webserver
 
