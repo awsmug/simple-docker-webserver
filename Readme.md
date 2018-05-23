@@ -6,8 +6,8 @@ This webserver contains a basic configuration with
 * php (7-fpm) - configured with xdebug
 * mariadb (latest)
 
-The xdebug is configured with the remote port 9000. To configure for your environment, you have to **change the IP address 
-in the docker-compose.yml** to your local IP address in the following line.
+The xdebug is configured with the remote port 9000. To configure for your environment, you have to **change the IP address** 
+in the docker-compose.yml to your local IP address in the following line:
 
 `XDEBUG_CONFIG: remote_host={YOUR-IP-ADDRESS}`
 
