@@ -12,3 +12,5 @@ in the docker-compose.yml** to your local IP address in the following line.
 `XDEBUG_CONFIG: remote_host={YOUR-IP-ADDRESS}`
 
 You will get your local IP address with *ifconfig* on your console.
+
+Start the webserver with the command `docker-compose up` and stop it with `docker-compose down`.
