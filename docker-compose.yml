@@ -14,8 +14,6 @@ services:
     volumes:
       - ./www:/var/www/html
       - ./conf/php/php.ini:/usr/local/etc/php/php.ini
-    environment:
-        XDEBUG_CONFIG: remote_host=192.168.1.35
   db:
     image: mariadb
     environment:

@@ -1,3 +1,5 @@
 <?php
 
+echo 'X';
+
 phpinfo();
