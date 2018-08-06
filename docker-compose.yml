@@ -14,12 +14,13 @@ services:
       - ./conf/php/php.ini:/usr/local/etc/php/php.ini
   db:
     image: mariadb
+    restart: always
     environment:
-      MYSQL_DATABASE: my_database
-      MYSQL_ROOT_PASSWORD: my_password
-    ports:
-      - 3306:3306
-    volumes:
-      - dbdata:/var/lib/mysql
+      MYSQL_ROOT_PASSWORD: root
+  phpmyadmin:
+      image: phpmyadmin/phpmyadmin
+      restart: always
+      ports:
+        - 8080:80
 volumes:
   dbdata:
